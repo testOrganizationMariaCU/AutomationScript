@@ -52,6 +52,6 @@ jobs:
           # The specific stage to run in this action. Possible values are: All, Upload, and Deploy. All will run all 3 stages consecutively.
           #stage: # optional, default is All
           # The artifact Id of the artifact that you would like to deploy
-          #artifact-id: # optional
+          artifact-id:
           # The build number of a workflow run. Only required for a development run. Required for stages Upload and All if no version was provided instead.
           build-number: ${{github.run_number}}
